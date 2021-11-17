@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 const Home: NextPage = () => {
   return (
@@ -13,9 +14,15 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <h1> Yêu Bé Bống </h1>
+        <h1> Bé Bống Ngủ Ngon</h1>
+        {/* <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+
+        <Link href='/about'>
+          <a>Go to about</a>
+        </Link>
 
         <p className={styles.description}>
           Get started by editing{' '}
@@ -51,6 +58,7 @@ const Home: NextPage = () => {
             </p>
           </a>
         </div>
+        */}
       </main>
 
       <footer className={styles.footer}>
@@ -64,7 +72,7 @@ const Home: NextPage = () => {
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
-      </footer>
+      </footer> 
     </div>
   )
 }
