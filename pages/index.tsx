@@ -14,9 +14,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1> Yêu Bé Bống </h1>
-        <h1> Bé Bống Ngủ Ngon</h1>
-        {/* <h1 className={styles.title}>
+        <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
@@ -58,7 +56,6 @@ const Home: NextPage = () => {
             </p>
           </a>
         </div>
-        */}
       </main>
 
       <footer className={styles.footer}>
@@ -72,7 +69,7 @@ const Home: NextPage = () => {
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
-      </footer> 
+      </footer>
     </div>
   )
 }
