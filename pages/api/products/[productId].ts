@@ -9,5 +9,7 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  res.status(200).json({ name: 'NghiaLM' })
+  // console.log(req.);
+  
+  res.status(200).json({ name: 'product Id' })
 }
